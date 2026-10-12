@@ -1,26 +1,389 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand Tokens (derived from Flexiple visual identity) */
+  --forest-950: #041B11;
+  --forest-900: #072A1B;
+  --forest-850: #093320;
+  --forest-800: #0C3A26;
+  --forest-700: #14503A;
+  --forest-600: #1B654A;
+  --lime-400: #BDE658;
+  --lime-300: #D0F07A;
+  --lime-200: #DCF498;
+  --lime-100: #EAF7CC;
+  --lime-50:  #F5FBEA;
+  
+  --ink: #111A15;
+  --ink-secondary: #2C3D34;
+  --mist: #8FA89A;
+  --mist-light: #B4C7BD;
+  --mist-faint: #3A5B4C;
+
+  /* Pastel Card Tokens (Light sections / Sources) */
+  --pastel-mint: #C9EBD1;
+  --pastel-butter: #FFF1CF;
+  --pastel-blush: #FFE0E0;
+  --pastel-aqua: #DDF0EE;
+  --pastel-periwinkle: #DDE6FF;
+  --pastel-lavender: #EEE6FB;
+
+  --signal-yellow: #FFD13F;
+
+  --bg-page: #F6F8F6;
+  --bg-card-light: #FFFFFF;
+  --border-light: #E2E8E4;
+
+  /* Typography Design Tokens */
+  --font-heading: var(--font-fraunces), "Source Serif 4", Georgia, serif;
+  --font-body: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-forest-950: var(--forest-950);
+  --color-forest-900: var(--forest-900);
+  --color-forest-850: var(--forest-850);
+  --color-forest-800: var(--forest-800);
+  --color-forest-700: var(--forest-700);
+  --color-forest-600: var(--forest-600);
+  --color-lime-400: var(--lime-400);
+  --color-lime-300: var(--lime-300);
+  --color-lime-200: var(--lime-200);
+  --color-lime-100: var(--lime-100);
+  --color-lime-50: var(--lime-50);
+  --color-ink: var(--ink);
+  --color-ink-secondary: var(--ink-secondary);
+  --color-mist: var(--mist);
+  --color-mist-light: var(--mist-light);
+  --color-mist-faint: var(--mist-faint);
+  --color-pastel-mint: var(--pastel-mint);
+  --color-pastel-butter: var(--pastel-butter);
+  --color-pastel-blush: var(--pastel-blush);
+  --color-pastel-aqua: var(--pastel-aqua);
+  --color-pastel-periwinkle: var(--pastel-periwinkle);
+  --color-pastel-lavender: var(--pastel-lavender);
+  --color-signal-yellow: var(--signal-yellow);
+  --color-bg-page: var(--bg-page);
+  --color-border-light: var(--border-light);
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+  --font-serif: var(--font-heading);
+  --font-sans: var(--font-body);
+  --font-mono: var(--font-body);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-page);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+/* Headings: bold, high-contrast serif with soft quirky shapes, tight line height (1.1), tight letter-spacing */
+h1, h2, h3, h4, .font-serif, .font-heading {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+}
+
+/* Body & UI Text: clean neutral sans, regular weight, comfortable line-height (1.5) */
+.font-sans, .font-body {
+  font-family: var(--font-body);
+  line-height: 1.5;
+}
+
+/* All counts, statistics, and figures with tabular alignment (Inter with tabular-nums) */
+.font-mono, .tabular-nums, [data-tabular="true"] {
+  font-family: var(--font-body);
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+/* Eyebrow labels (uppercase, 12-13px, medium weight 500, letter-spacing 0.08em, lime accent) */
+.eyebrow-label {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--lime-300);
+}
+
+/* Subheads inside dark sections (Inter semibold 600, lime accent) */
+.dark-subhead {
+  font-family: var(--font-body);
+  font-weight: 600;
+  color: var(--lime-300);
+}
+
+/* Dotted grid stage texture */
+.stage-grid-pattern {
+  background-image: radial-gradient(rgba(143, 168, 154, 0.18) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Hatching pattern for non-comparable claims */
+.hatched-pattern {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(208, 240, 122, 0.12),
+    rgba(208, 240, 122, 0.12) 6px,
+    transparent 6px,
+    transparent 12px
+  );
+}
+
+.hatched-pattern-dark {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(143, 168, 154, 0.15),
+    rgba(143, 168, 154, 0.15) 6px,
+    transparent 6px,
+    transparent 12px
+  );
+}
+
+/* Print Stylesheet for PDF Export */
+@media print {
+  @page {
+    margin: 1.2cm;
+    size: A4 portrait;
+  }
+
+  body {
+    background-color: #ffffff !important;
+    color: #111827 !important;
+  }
+
+  header,
+  nav,
+  footer,
+  .print\:hidden {
+    display: none !important;
+  }
+
+  .stage-grid-pattern {
+    background: none !important;
+  }
+}
+
+/* Double blink animation for city boundary highlight (400ms per pulse, exactly twice = 800ms) */
+@keyframes boundaryBlinkTwice {
+  0% {
+    opacity: 0.15;
+    fill-opacity: 0.05;
+  }
+  25% {
+    opacity: 1;
+    fill-opacity: 0.45;
+  }
+  50% {
+    opacity: 0.2;
+    fill-opacity: 0.08;
+  }
+  75% {
+    opacity: 1;
+    fill-opacity: 0.45;
+  }
+  100% {
+    opacity: 0.85;
+    fill-opacity: 0.22;
+  }
+}
+
+.boundary-blink-twice {
+  animation: boundaryBlinkTwice 800ms ease-in-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .boundary-blink-twice {
+    animation: none !important;
+    opacity: 0.85 !important;
+    fill-opacity: 0.22 !important;
+  }
+}
+
+/* Tier-2 pin pulse animation (exactly twice: 400ms per pulse = 800ms) */
+@keyframes pinPulseTwice {
+  0% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 0 rgba(208, 240, 122, 0));
+  }
+  25% {
+    transform: scale(1.28);
+    filter: drop-shadow(0 0 14px rgba(208, 240, 122, 0.9));
+  }
+  50% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 0 rgba(208, 240, 122, 0));
+  }
+  75% {
+    transform: scale(1.28);
+    filter: drop-shadow(0 0 14px rgba(208, 240, 122, 0.9));
+  }
+  100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 4px rgba(208, 240, 122, 0.4));
+  }
+}
+
+.pin-pulse-twice {
+  animation: pinPulseTwice 800ms ease-in-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pin-pulse-twice {
+    animation: none !important;
+    transform: scale(1) !important;
+  }
+}
+
+/* =========================================================================
+   Leaflet Map Core Styles & Container Constraints
+   ========================================================================= */
+
+/* Confine map to container bounds, avoid viewport stretching & blowout */
+.leaflet-container {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  overflow: hidden !important;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0;
+  font-family: inherit;
+}
+
+/* Force tiles & panes to be positioned absolute and never exceed their bounds */
+.leaflet-pane,
+.leaflet-tile,
+.leaflet-marker-icon,
+.leaflet-marker-shadow,
+.leaflet-tile-container,
+.leaflet-pane > svg,
+.leaflet-pane > canvas,
+.leaflet-zoom-box,
+.leaflet-image-layer,
+.leaflet-layer {
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+}
+
+/* Override Tailwind CSS preflight which adds max-width: 100% / height: auto on img */
+.leaflet-container .leaflet-tile,
+.leaflet-container img.leaflet-tile,
+.leaflet-container .leaflet-marker-pane img,
+.leaflet-container .leaflet-shadow-pane img,
+.leaflet-container .leaflet-tile-pane img,
+.leaflet-container img.leaflet-image-layer {
+  max-width: none !important;
+  max-height: none !important;
+  width: auto !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+
+.leaflet-tile {
+  visibility: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+}
+
+.leaflet-tile-loaded {
+  visibility: inherit;
+}
+
+/* Controlled Leaflet Panes Z-Index Hierarchy (all confined within parent stacking context) */
+.leaflet-map-pane canvas { z-index: 100; }
+.leaflet-map-pane svg    { z-index: 200; }
+.leaflet-tile-pane       { z-index: 200; }
+.leaflet-overlay-pane    { z-index: 400; }
+.leaflet-shadow-pane     { z-index: 500; }
+.leaflet-marker-pane     { z-index: 600; }
+.leaflet-tooltip-pane    { z-index: 650; }
+.leaflet-popup-pane      { z-index: 700; }
+
+.leaflet-control {
+  position: relative;
+  z-index: 800;
+  pointer-events: auto;
+  float: left;
+  clear: both;
+}
+
+.leaflet-top,
+.leaflet-bottom {
+  position: absolute;
+  z-index: 900;
+  pointer-events: none;
+}
+
+.leaflet-top    { top: 0; }
+.leaflet-right  { right: 0; }
+.leaflet-bottom { bottom: 0; }
+.leaflet-left   { left: 0; }
+
+.leaflet-right .leaflet-control { float: right; margin-right: 10px; }
+.leaflet-left .leaflet-control  { margin-left: 10px; }
+.leaflet-top .leaflet-control   { margin-top: 10px; }
+.leaflet-bottom .leaflet-control { margin-bottom: 10px; }
+
+/* Leaflet Zoom Control buttons */
+.leaflet-bar {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #14503A;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.leaflet-bar a {
+  background-color: #072A1B;
+  color: #D0F07A;
+  border-bottom: 1px solid #14503A;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.15s ease;
+}
+
+.leaflet-bar a:hover {
+  background-color: #14503A;
+  color: #FFFFFF;
+}
+
+.leaflet-bar a:last-child {
+  border-bottom: none;
+}
+
+.leaflet-bar a.leaflet-disabled {
+  cursor: default;
+  background-color: #041B11;
+  color: #3A5B4C;
+}
+
+/* Touch zoom / drag support */
+.leaflet-container.leaflet-touch-zoom {
+  touch-action: pan-x pan-y;
+}
+.leaflet-container.leaflet-touch-drag {
+  touch-action: pinch-zoom;
+}
+
+/* Custom Preview Pin styling */
+.custom-preview-pin {
+  background: transparent !important;
+  border: none !important;
+}
+

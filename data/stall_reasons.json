@@ -1,0 +1,104 @@
+[
+  {
+    "id": "stall-ubo-banking-kyc",
+    "reason": "UBO & Bank Account Activation Impasse",
+    "applies_to": "entity_first",
+    "evidence_text": "Indian commercial banks enforce intensive KYC verifications requiring natural persons holding >10% ownership abroad to submit physical notarized passports, leading to a median 6-week stall before capital can be remitted.",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://www.deloitte.com/in/en/pages/consulting/articles/setting-up-gcc-operating-models.html",
+        "title": "Setting Up a Global Capability Centre in India: Operating Models & Cost Economics",
+        "publisher": "Deloitte India",
+        "published_date": "2023-08-15",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "stall-notice-period-poaching",
+    "reason": "90-Day Candidate Notice Period Attrition & Shopping",
+    "applies_to": null,
+    "evidence_text": "In core tech hubs, standard 60-to-90-day notice periods result in up to 30% offer-to-joining dropouts as candidates solicit competing counter-offers from peer GCCs while serving notice.",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://www.aon.com/india/insights/annual-salary-increase-survey.jsp",
+        "title": "Annual Salary Increase and Turnover Survey 2023-24",
+        "publisher": "Aon India",
+        "published_date": "2024-02-10",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "stall-ip-assignment-moral-rights",
+    "reason": "Ambiguous Cross-Border IP Ownership in EOR Agreements",
+    "applies_to": "eor_bridge",
+    "evidence_text": "Standard EOR employment agreements without robust Indian Copyright Act Section 17 explicit consideration waivers risk creating cloud title disputes over patentable code during subsequent corporate M&A.",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://nasscom.in/knowledge-center/publications/regulatory-guide-gccs-2023",
+        "title": "Regulatory, Transfer Pricing & Compliance Guide for GCCs in India",
+        "publisher": "NASSCOM Legal Working Group",
+        "published_date": "2023-05-10",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "stall-transfer-pricing-audit",
+    "reason": "Retrospective Transfer Pricing Margin Challenges",
+    "applies_to": "entity_first",
+    "evidence_text": "Tax authorities frequently challenge low cost-plus markups (below safe harbor thresholds of 17-24%) when Indian engineers contribute core software architecture rather than low-end maintenance, resulting in multi-year tax litigation.",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://nasscom.in/knowledge-center/publications/regulatory-guide-gccs-2023",
+        "title": "Regulatory, Transfer Pricing & Compliance Guide for GCCs in India",
+        "publisher": "NASSCOM Legal Working Group",
+        "published_date": "2023-05-10",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "stall-bfsi-data-localization",
+    "reason": "RBI Data Localization & Cloud Access Constraints",
+    "applies_to": "Banking & Financial Services",
+    "evidence_text": "Financial services GCCs face regulatory mandates requiring payments and financial telemetry data to reside locally, complicating unified global cloud deployments and CI/CD pipelines.",
+    "evidence_tier": "A",
+    "sources": [
+      {
+        "url": "https://www.rbi.org.in",
+        "title": "Reserve Bank of India Storage of Payment System Data Directives",
+        "publisher": "Reserve Bank of India",
+        "published_date": "2023-01-01",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "stall-retail-omnichannel-scale",
+    "reason": "Retail High-Concurrency Platform Engineering Scarcity",
+    "applies_to": "Retail & E-commerce",
+    "evidence_text": "High competition among retail giants (Walmart, Target, Tesco, Lowe's) leads to hyper-inflation for staff-level distributed systems architects experienced in sub-second order management and inventory algorithms.",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://www.michaelpage.co.in/salary-guide/gcc-technology",
+        "title": "India GCC Salary Benchmark Report 2024",
+        "publisher": "Michael Page India",
+        "published_date": "2024-01-15",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  }
+]

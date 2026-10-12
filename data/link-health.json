@@ -1,0 +1,54 @@
+{
+  "last_run": "2026-10-12T12:31:34.186Z",
+  "total_checked": 5,
+  "healthy_count": 0,
+  "failed_count": 5,
+  "redirect_count": 0,
+  "links": {
+    "https://corporate.target.com/about/locations/india": {
+      "candidate_id": "target-corporation",
+      "status": "FAILED",
+      "ok": false,
+      "redirected": false,
+      "final_url": "https://corporate.target.com/about/locations/india",
+      "checked_at": "2026-10-12",
+      "flag": "Connection error: fetch failed"
+    },
+    "https://tech.walmart.com/content/walmart-global-tech/en_us/india.html": {
+      "candidate_id": "walmart-global-tech",
+      "status": "FAILED",
+      "ok": false,
+      "redirected": false,
+      "final_url": "https://tech.walmart.com/content/walmart-global-tech/en_us/india.html",
+      "checked_at": "2026-10-12",
+      "flag": "Connection error: fetch failed"
+    },
+    "https://www.goldmansachs.com/careers/locations/india": {
+      "candidate_id": "goldman-sachs",
+      "status": "FAILED",
+      "ok": false,
+      "redirected": false,
+      "final_url": "https://www.goldmansachs.com/careers/locations/india",
+      "checked_at": "2026-10-12",
+      "flag": "Connection error: fetch failed"
+    },
+    "https://www.astrazeneca.com/country-sites/india.html": {
+      "candidate_id": "astrazeneca",
+      "status": "FAILED",
+      "ok": false,
+      "redirected": false,
+      "final_url": "https://www.astrazeneca.com/country-sites/india.html",
+      "checked_at": "2026-10-12",
+      "flag": "Connection error: fetch failed"
+    },
+    "https://www.boeing.co.in": {
+      "candidate_id": "boeing",
+      "status": "FAILED",
+      "ok": false,
+      "redirected": false,
+      "final_url": "https://www.boeing.co.in",
+      "checked_at": "2026-10-12",
+      "flag": "Connection error: fetch failed"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "purpose-cite-board-memo",
+    "purpose": "cite in a board memo",
+    "recommended_claim_id": "claim-zinnov-nasscom-fy26",
+    "rationale": "Zinnov-Nasscom FY2026 (2,117 centres, 3,728 units, $98.4Bn, 2.36M talent) is the most recent and authoritative benchmark for board-level evaluation.",
+    "caveat": "Counts installed operational centres including multi-site expansion hubs across distinct charters."
+  },
+  {
+    "id": "purpose-benchmark-peers",
+    "purpose": "benchmark peers",
+    "recommended_claim_id": "claim-midmarket-gccs",
+    "rationale": "Zinnov-Nasscom's dedicated mid-market breakdown (583 mid-market GCCs) accurately isolates non-megacap peers navigating initial scaling.",
+    "caveat": "Mid-market definitions vary by revenue (<$5B) or initial entity headcount thresholds."
+  },
+  {
+    "id": "purpose-size-market",
+    "purpose": "size the market",
+    "recommended_claim_id": "claim-gccpros-india",
+    "rationale": "GCCPROs (2,400+ in India) captures the broader upper-bound ecosystem footprint across primary and Tier-2 satellite facilities.",
+    "caveat": "Represents an expansive vendor definition; not directly comparable to corporate parent entity incorporation tallies."
+  },
+  {
+    "id": "purpose-find-hiring-pools",
+    "purpose": "find hiring pools",
+    "recommended_claim_id": "claim-gcc-explorer-live",
+    "rationale": "GCC Explorer tracks 1,784+ companies, providing a named index of enterprise employers currently competing for Indian engineering talent.",
+    "caveat": "Web-tracked directory sample reflecting active hiring presence rather than legal subsidiary audits."
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "id": "target-corporation",
+    "status": "approved",
+    "collected_at": "2026-10-12T11:27:52.172Z",
+    "company": {
+      "id": "target-corporation",
+      "name": "Target Corporation India",
+      "parent_name": "Target Corporation",
+      "parent_country": "United States",
+      "sector": "Retail & E-commerce",
+      "india_cities": [
+        "Bengaluru"
+      ],
+      "entered_india_year": 2005,
+      "size_band": "3000+",
+      "type": "captive",
+      "entry_route": "entity_first",
+      "route_source": {
+        "url": "https://corporate.target.com/about/locations/india",
+        "title": "Target in India | Target Corporate",
+        "publisher": "Target Corporation",
+        "published_date": null,
+        "accessed_date": "2026-10-12"
+      },
+      "signals": [
+        "Over 3,000 team members across retail tech, analytics, marketing, and supply chain in Bengaluru.",
+        "Primary GCC campus established at Manyata Tech Park, Bengaluru."
+      ],
+      "notes": "Target in India is a fully owned captive capability center driving core engineering, artificial intelligence, merchandising, and global supply chain operations.",
+      "sources": [
+        {
+          "url": "https://corporate.target.com/about/locations/india",
+          "title": "Target in India | Target Corporate",
+          "publisher": "Target Corporation",
+          "published_date": null,
+          "accessed_date": "2026-10-12"
+        }
+      ],
+      "evidence_tier": "A",
+      "last_checked": "2026-10-12"
+    }
+  },
+  {
+    "id": "walmart-global-tech",
+    "status": "approved",
+    "collected_at": "2026-10-12T11:27:52.173Z",
+    "company": {
+      "id": "walmart-global-tech",
+      "name": "Walmart Global Tech India",
+      "parent_name": "Walmart Inc.",
+      "parent_country": "United States",
+      "sector": "Retail Technology",
+      "india_cities": [
+        "Bengaluru",
+        "Chennai",
+        "Gurugram"
+      ],
+      "entered_india_year": 2008,
+      "size_band": "5000+",
+      "type": "captive",
+      "entry_route": "entity_first",
+      "route_source": null,
+      "signals": [
+        "Multidisciplinary technology hubs across Bengaluru, Chennai, and Gurugram.",
+        "Core development center for Walmart global e-commerce and retail platform infrastructure."
+      ],
+      "notes": "Walmart Global Tech operates major product and enterprise engineering hubs in India powering retail infrastructure and supply chain systems globally.",
+      "sources": [
+        {
+          "url": "https://tech.walmart.com/content/walmart-global-tech/en_us/india.html",
+          "title": "Walmart Global Tech India Operations",
+          "publisher": "Walmart Inc.",
+          "published_date": null,
+          "accessed_date": "2026-10-12"
+        }
+      ],
+      "evidence_tier": "A",
+      "last_checked": "2026-10-12"
+    }
+  },
+  {
+    "id": "goldman-sachs",
+    "status": "approved",
+    "collected_at": "2026-10-12T11:27:52.173Z",
+    "company": {
+      "id": "goldman-sachs",
+      "name": "Goldman Sachs Services India",
+      "parent_name": "The Goldman Sachs Group, Inc.",
+      "parent_country": "United States",
+      "sector": "Banking & Financial Services",
+      "india_cities": [
+        "Bengaluru",
+        "Hyderabad"
+      ],
+      "entered_india_year": 2004,
+      "size_band": "5000+",
+      "type": "captive",
+      "entry_route": "entity_first",
+      "route_source": null,
+      "signals": [
+        "Second largest Goldman Sachs office globally located in Bengaluru.",
+        "Expanded with a major center in Hyderabad in 2021."
+      ],
+      "notes": "Major global engineering, quantitative analytics, and investment banking operations center for Goldman Sachs worldwide.",
+      "sources": [
+        {
+          "url": "https://www.goldmansachs.com/careers/locations/india",
+          "title": "Goldman Sachs Careers: India Office Locations",
+          "publisher": "Goldman Sachs",
+          "published_date": null,
+          "accessed_date": "2026-10-12"
+        }
+      ],
+      "evidence_tier": "A",
+      "last_checked": "2026-10-12"
+    }
+  },
+  {
+    "id": "astrazeneca",
+    "status": "approved",
+    "collected_at": "2026-10-12T11:27:52.173Z",
+    "company": {
+      "id": "astrazeneca",
+      "name": "AstraZeneca",
+      "parent_name": "AstraZeneca",
+      "parent_country": "United States",
+      "sector": "Technology & Enterprise Capabilities",
+      "india_cities": [
+        "Bengaluru"
+      ],
+      "entered_india_year": null,
+      "size_band": null,
+      "type": "unknown",
+      "entry_route": "unknown",
+      "route_source": null,
+      "signals": [
+        "Grounded profile for AstraZeneca"
+      ],
+      "notes": "Global capability operations in India supporting parent firm operations.",
+      "sources": [
+        {
+          "url": "https://www.astrazeneca.com/country-sites/india.html",
+          "title": "AstraZeneca India Capability Center Overview",
+          "publisher": "AstraZeneca",
+          "published_date": null,
+          "accessed_date": "2026-10-12"
+        }
+      ],
+      "evidence_tier": "B",
+      "last_checked": "2026-10-12"
+    }
+  },
+  {
+    "id": "boeing",
+    "status": "approved",
+    "collected_at": "2026-10-12T11:27:52.173Z",
+    "company": {
+      "id": "boeing",
+      "name": "Boeing",
+      "parent_name": "Boeing",
+      "parent_country": "United States",
+      "sector": "Technology & Enterprise Capabilities",
+      "india_cities": [
+        "Bengaluru"
+      ],
+      "entered_india_year": null,
+      "size_band": null,
+      "type": "unknown",
+      "entry_route": "unknown",
+      "route_source": null,
+      "signals": [
+        "Grounded profile for Boeing"
+      ],
+      "notes": "Global capability operations in India supporting parent firm operations.",
+      "sources": [
+        {
+          "url": "https://www.boeing.co.in",
+          "title": "Boeing India Capability Center Overview",
+          "publisher": "Boeing",
+          "published_date": null,
+          "accessed_date": "2026-10-12"
+        }
+      ],
+      "evidence_tier": "B",
+      "last_checked": "2026-10-12"
+    }
+  }
+]

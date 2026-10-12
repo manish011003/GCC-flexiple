@@ -1,0 +1,142 @@
+[
+  {
+    "id": "cost-salary-engineering",
+    "label": "Software Engineering Annual Base Salary (Blended)",
+    "low": 16.0,
+    "base": 22.5,
+    "high": 34.0,
+    "unit": "INR LPA per FTE",
+    "applies_to": "engineering",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://www.michaelpage.co.in/salary-guide/gcc-technology",
+        "title": "India GCC Salary Benchmark Report 2024",
+        "publisher": "Michael Page India",
+        "published_date": "2024-01-15",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "cost-salary-data-ai",
+    "label": "Data & AI Annual Base Salary (Blended)",
+    "low": 18.0,
+    "base": 26.0,
+    "high": 38.0,
+    "unit": "INR LPA per FTE",
+    "applies_to": "data/AI",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://www.michaelpage.co.in/salary-guide/gcc-technology",
+        "title": "India GCC Salary Benchmark Report 2024",
+        "publisher": "Michael Page India",
+        "published_date": "2024-01-15",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "cost-salary-finance-ops",
+    "label": "Finance, Accounting & Shared Ops Annual Base Salary",
+    "low": 11.0,
+    "base": 16.5,
+    "high": 25.0,
+    "unit": "INR LPA per FTE",
+    "applies_to": "finance/ops",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://www.aon.com/india/insights/annual-salary-increase-survey.jsp",
+        "title": "Annual Salary Increase and Turnover Survey 2023-24",
+        "publisher": "Aon India",
+        "published_date": "2024-02-10",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "cost-salary-support",
+    "label": "Technical Customer Operations & Support Annual Base Salary",
+    "low": 8.5,
+    "base": 12.0,
+    "high": 18.0,
+    "unit": "INR LPA per FTE",
+    "applies_to": "support",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://www.aon.com/india/insights/annual-salary-increase-survey.jsp",
+        "title": "Annual Salary Increase and Turnover Survey 2023-24",
+        "publisher": "Aon India",
+        "published_date": "2024-02-10",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "cost-office-workstation",
+    "label": "Fully Managed Workstation / Flexible Desk Seat",
+    "low": 8500,
+    "base": 12500,
+    "high": 18000,
+    "unit": "INR per seat per month",
+    "applies_to": "office_rent",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://www.cbre.co.in/insights/reports/india-office-figures-q4-2023",
+        "title": "India Office Figures Q4 2023: GCC Real Estate Trends",
+        "publisher": "CBRE India",
+        "published_date": "2023-12-20",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "cost-setup-entity-legal",
+    "label": "Wholly Owned Foreign Subsidiary (WOFE) Legal Incorporation & ROC",
+    "low": 15.0,
+    "base": 22.0,
+    "high": 30.0,
+    "unit": "INR Lakhs one-time",
+    "applies_to": "entity_setup",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://www.deloitte.com/in/en/pages/consulting/articles/setting-up-gcc-operating-models.html",
+        "title": "Setting Up a Global Capability Centre in India: Operating Models & Cost Economics",
+        "publisher": "Deloitte India",
+        "published_date": "2023-08-15",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "cost-eor-markup-fee",
+    "label": "Employer of Record (EOR) Service Fee Markup on Gross Salary",
+    "low": 0.15,
+    "base": 0.18,
+    "high": 0.25,
+    "unit": "Ratio (15% to 25% on gross compensation)",
+    "applies_to": "eor_fee",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://www.deloitte.com/in/en/pages/consulting/articles/setting-up-gcc-operating-models.html",
+        "title": "Setting Up a Global Capability Centre in India: Operating Models & Cost Economics",
+        "publisher": "Deloitte India",
+        "published_date": "2023-08-15",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  }
+]

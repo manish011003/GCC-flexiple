@@ -1,0 +1,232 @@
+[
+  {
+    "id": "claim-zinnov-nasscom-fy26",
+    "source_name": "Zinnov-Nasscom",
+    "number": 2117,
+    "scope": "India-only",
+    "unit": "centres",
+    "what_is_counted": "Installed operational GCC centres across India (3,728 units, $98.4Bn market, 2.36M talent)",
+    "as_of": "March 2026",
+    "published_year": 2026,
+    "who_pays": "Industry trade association member dues & Zinnov advisory clients",
+    "url": "https://zinnov.com/centers-of-excellence/zinnov-nasscom-india-gcc-landscape-2026-report/",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://zinnov.com/centers-of-excellence/zinnov-nasscom-india-gcc-landscape-2026-report/",
+        "title": "Zinnov-Nasscom India GCC Landscape 2026 Report",
+        "publisher": "Zinnov-Nasscom",
+        "published_date": "2026-03-01",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "claim-zinnov-nasscom-fy24",
+    "source_name": "Zinnov-Nasscom",
+    "number": 1700,
+    "scope": "India-only",
+    "unit": "centres",
+    "what_is_counted": "Operational GCCs in India (2,975 operational units, $64.6Bn market)",
+    "as_of": "FY2024",
+    "published_year": 2024,
+    "who_pays": "Industry trade association member dues & Zinnov advisory clients",
+    "url": "https://economictimes.indiatimes.com/tech/technology/indias-gcc-count-rises-to-1700-in-fy24-revenue-up-40-at-64-6-billion-report/articleshow/113249180.cms",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://economictimes.indiatimes.com/tech/technology/indias-gcc-count-rises-to-1700-in-fy24-revenue-up-40-at-64-6-billion-report/articleshow/113249180.cms",
+        "title": "India's GCC Count Rises to 1,700 in FY24, Revenue up 40% at $64.6B",
+        "publisher": "The Economic Times (Zinnov-Nasscom)",
+        "published_date": "2024-09-11",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "claim-gcc-explorer-live",
+    "source_name": "GCC Explorer (AIM Research)",
+    "number": 1784,
+    "scope": "India-only",
+    "unit": "parent_entities",
+    "what_is_counted": "Active tracked GCC parent entities in India directory database",
+    "as_of": "Live 2026",
+    "published_year": 2026,
+    "who_pays": "AIM Research intelligence subscriptions and enterprise clients",
+    "url": "https://gccexplorer.com/list-of-gcc-companies-in-india",
+    "evidence_tier": "C",
+    "sources": [
+      {
+        "url": "https://gccexplorer.com/list-of-gcc-companies-in-india",
+        "title": "List of GCC Companies in India - 1,784+ Tracked",
+        "publisher": "GCC Explorer",
+        "published_date": "2026-01-01",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "claim-gccpros-india",
+    "source_name": "GCCPROs",
+    "number": 2400,
+    "scope": "India-only",
+    "unit": "centres",
+    "what_is_counted": "Operational GCC units across Tier 1 and Tier 2 India hubs (part of 4,641+ global count)",
+    "as_of": "Live 2026",
+    "published_year": 2026,
+    "who_pays": "GCC consulting services and staffing advisory engagements",
+    "url": "https://gccpros.com",
+    "evidence_tier": "C",
+    "sources": [
+      {
+        "url": "https://gccpros.com",
+        "title": "GCCPROs: India & Global Capability Center Intelligence",
+        "publisher": "GCCPROs",
+        "published_date": "2026-01-01",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "claim-gccpros-global",
+    "source_name": "GCCPROs (Global Total)",
+    "number": 4641,
+    "scope": "Global",
+    "unit": "centres",
+    "what_is_counted": "Worldwide GCC capability hubs across all global delivery geographies (non-comparable to India-only)",
+    "as_of": "Live 2026",
+    "published_year": 2026,
+    "who_pays": "GCC consulting services and staffing advisory engagements",
+    "url": "https://gccpros.com",
+    "evidence_tier": "C",
+    "sources": [
+      {
+        "url": "https://gccpros.com",
+        "title": "GCCPROs Worldwide Capability Footprint",
+        "publisher": "GCCPROs",
+        "published_date": "2026-01-01",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "claim-gcc-journal-directory",
+    "source_name": "GCC Journal",
+    "number": 200,
+    "scope": "Directory coverage",
+    "unit": "parent_entities",
+    "what_is_counted": "Curated editorial directory listings of established GCC centers (curated sample, not total)",
+    "as_of": "Live 2026",
+    "published_year": 2026,
+    "who_pays": "Editorial publishing and industry events sponsorship",
+    "url": "https://gccjournal.com",
+    "evidence_tier": "C",
+    "sources": [
+      {
+        "url": "https://gccjournal.com",
+        "title": "GCC Journal India Directory Index",
+        "publisher": "GCC Journal",
+        "published_date": "2026-01-01",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "claim-midmarket-gccs",
+    "source_name": "Zinnov-Nasscom Mid-Market",
+    "number": 583,
+    "scope": "India-only",
+    "unit": "centres",
+    "what_is_counted": "Mid-market GCC segment (<$5B parent revenue or enterprise footprint) operating in India",
+    "as_of": "March 2026",
+    "published_year": 2026,
+    "who_pays": "Industry trade association member dues & Zinnov advisory clients",
+    "url": "https://zinnov.com/centers-of-excellence/zinnov-nasscom-india-gcc-landscape-2026-report/",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://zinnov.com/centers-of-excellence/zinnov-nasscom-india-gcc-landscape-2026-report/",
+        "title": "India GCC Landscape 2026 - Mid-Market Acceleration",
+        "publisher": "Zinnov-Nasscom",
+        "published_date": "2026-03-01",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "claim-pe-backed-gccs",
+    "source_name": "Zinnov-Nasscom PE Segment",
+    "number": 504,
+    "scope": "India-only",
+    "unit": "centres",
+    "what_is_counted": "Private Equity backed portfolio GCC centers operating in India",
+    "as_of": "March 2026",
+    "published_year": 2026,
+    "who_pays": "Industry trade association member dues & Zinnov advisory clients",
+    "url": "https://zinnov.com/centers-of-excellence/zinnov-nasscom-india-gcc-landscape-2026-report/",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://zinnov.com/centers-of-excellence/zinnov-nasscom-india-gcc-landscape-2026-report/",
+        "title": "India GCC Landscape 2026 - Private Equity Footprint",
+        "publisher": "Zinnov-Nasscom",
+        "published_date": "2026-03-01",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "claim-forbes-g2000-gccs",
+    "source_name": "Zinnov-Nasscom Forbes G2000",
+    "number": 506,
+    "scope": "India-only",
+    "unit": "parent_entities",
+    "what_is_counted": "Forbes Global 2000 multinational enterprises with established India capability centers",
+    "as_of": "March 2026",
+    "published_year": 2026,
+    "who_pays": "Industry trade association member dues & Zinnov advisory clients",
+    "url": "https://zinnov.com/centers-of-excellence/zinnov-nasscom-india-gcc-landscape-2026-report/",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://zinnov.com/centers-of-excellence/zinnov-nasscom-india-gcc-landscape-2026-report/",
+        "title": "India GCC Landscape 2026 - Forbes Global 2000 Penetration",
+        "publisher": "Zinnov-Nasscom",
+        "published_date": "2026-03-01",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "claim-decade-ago-baseline",
+    "source_name": "Nasscom Historical Baseline",
+    "number": 750,
+    "scope": "India-only",
+    "unit": "centres",
+    "what_is_counted": "Estimated operational GCC centers in India a decade ago (under 800 centres, approx 750)",
+    "as_of": "FY2015",
+    "published_year": 2015,
+    "who_pays": "Industry trade association archival publications",
+    "url": "https://nasscom.in/knowledge-center/publications/gcc-revolution-india",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://nasscom.in/knowledge-center/publications/gcc-revolution-india",
+        "title": "India GCC 10-Year Retrospective",
+        "publisher": "Nasscom",
+        "published_date": "2024-04-15",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  }
+]

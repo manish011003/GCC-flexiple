@@ -1,0 +1,134 @@
+[
+  {
+    "id": "state-karnataka",
+    "policy_name": "Karnataka Global Capability Centres (GCC) Policy 2024-2029",
+    "period": "2024-2029",
+    "evidence_tier": "A",
+    "sources": [
+      {
+        "url": "https://karnatakagccpolicy.karnataka.gov.in",
+        "title": "Government of Karnataka Draft GCC Policy 2024",
+        "publisher": "Department of Electronics, IT, Bt and S&T, Government of Karnataka",
+        "published_date": "2024-09-01",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12",
+    "incentives": [
+      {
+        "type": "Capital Investment Subsidy",
+        "amount_text": "Up to ₹1.0 Crore or 15% of eligible fixed capex",
+        "min_headcount": 100,
+        "min_capex_inr": 50000000,
+        "cap_text": "Capped at ₹1.0 Cr for Tier 1 (Bengaluru); ₹2.5 Cr for Beyond Bengaluru clusters",
+        "duration_years": 3,
+        "conditions_text": "Must create a minimum of 100 on-roll technical FTEs and sustain operations for 3 consecutive fiscal years.",
+        "headline_vs_reality": "Policy headlines advertise large grants, but disbursement is retrospective, requiring audited annual filings and significant bureaucratic lead time."
+      },
+      {
+        "type": "Power Tariff Subsidy & Exemption",
+        "amount_text": "₹1.50 per unit power subsidy for 5 years and 100% electricity duty exemption",
+        "min_headcount": 50,
+        "min_capex_inr": null,
+        "cap_text": "₹25 Lakhs per year per center",
+        "duration_years": 5,
+        "conditions_text": "Direct industrial or commercial power connection registered under parent Indian entity name in notified IT parks.",
+        "headline_vs_reality": "Only accessible if occupying traditional independent leases; leased coworking and managed spaces cannot claim this subsidy directly."
+      }
+    ]
+  },
+  {
+    "id": "state-telangana",
+    "policy_name": "Telangana ICT Policy & GCC Acceleration Framework",
+    "period": "2021-2026",
+    "evidence_tier": "A",
+    "sources": [
+      {
+        "url": "https://it.telangana.gov.in/policies/ict-policy/",
+        "title": "Telangana Information Communications Technology Policy Framework 2021-2026",
+        "publisher": "ITE&C Department, Government of Telangana",
+        "published_date": "2021-09-16",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12",
+    "incentives": [
+      {
+        "type": "Lease Rental Subsidy",
+        "amount_text": "25% lease rental subsidy for first 3 years of operations",
+        "min_headcount": 50,
+        "min_capex_inr": null,
+        "cap_text": "Capped at ₹50 Lakhs per annum",
+        "duration_years": 3,
+        "conditions_text": "Center must operate in government-designated IT corridors (HITEC City, Madhapur, Financial District) and hire 50+ local graduates.",
+        "headline_vs_reality": "High claim success rate compared to other states due to TS-iPASS single-window portal, though payments are staggered across quarterly audit cycles."
+      },
+      {
+        "type": "Patent Filing & R&D Grant",
+        "amount_text": "100% reimbursement of patent filing fees up to ₹10 Lakhs",
+        "min_headcount": null,
+        "min_capex_inr": null,
+        "cap_text": "₹10 Lakhs per corporate entity per fiscal year",
+        "duration_years": null,
+        "conditions_text": "Patent must list the Indian captive entity and local engineers as principal inventors.",
+        "headline_vs_reality": "Strictly limited to patents filed and granted under Indian Patent Office jurisdiction; international USPTO filings are excluded."
+      }
+    ]
+  },
+  {
+    "id": "state-maharashtra",
+    "policy_name": "Maharashtra Information Technology & ITES Policy 2023",
+    "period": "2023-2028",
+    "evidence_tier": "A",
+    "sources": [
+      {
+        "url": "https://www.midcindia.org/it-policy-2023",
+        "title": "Maharashtra IT/ITES Policy 2023 Document",
+        "publisher": "Industries Department, Government of Maharashtra",
+        "published_date": "2023-06-27",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12",
+    "incentives": [
+      {
+        "type": "Stamp Duty & Registration Exemption",
+        "amount_text": "100% stamp duty exemption on commercial lease deeds",
+        "min_headcount": null,
+        "min_capex_inr": null,
+        "cap_text": "Full waiver at time of lease registration",
+        "duration_years": null,
+        "conditions_text": "Registered commercial office lease minimum duration of 5 years in MIDC or designated IT parks.",
+        "headline_vs_reality": "Immediate upfront cash savings on Day 1, making it one of the most practical and friction-free incentives in Western India."
+      }
+    ]
+  },
+  {
+    "id": "state-tamil-nadu",
+    "policy_name": "Tamil Nadu GCC Policy & R&D Incentives 2024",
+    "period": "2024-2027",
+    "evidence_tier": "A",
+    "sources": [
+      {
+        "url": "https://guidance.tn.gov.in/policies/gcc-policy-2024",
+        "title": "Tamil Nadu Global Capability Centres Policy 2024",
+        "publisher": "Guidance Tamil Nadu, Government of Tamil Nadu",
+        "published_date": "2024-02-28",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12",
+    "incentives": [
+      {
+        "type": "Payroll & Training Grant",
+        "amount_text": "₹20,000 per employee training subsidy for local technical hires",
+        "min_headcount": 50,
+        "min_capex_inr": null,
+        "cap_text": "Capped at ₹20 Lakhs per GCC unit",
+        "duration_years": 2,
+        "conditions_text": "Must complete verified 90-day training curriculum with state technical university partners.",
+        "headline_vs_reality": "Administrative compliance overhead to document attendance and curriculum certifications frequently exceeds the net financial grant."
+      }
+    ]
+  }
+]

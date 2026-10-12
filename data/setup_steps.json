@@ -1,0 +1,275 @@
+[
+  {
+    "id": "step-eor-msa",
+    "name": "EOR Master Services Agreement & Benefit Framework Execution",
+    "depends_on": [],
+    "duration_weeks": {
+      "low": 1.0,
+      "base": 2.0,
+      "high": 3.0
+    },
+    "owner_type": "legal",
+    "common_blocker": "Custom indemnity negotiations between parent legal counsel and India EOR entity.",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://www.deloitte.com/in/en/pages/consulting/articles/setting-up-gcc-operating-models.html",
+        "title": "Setting Up a Global Capability Centre in India: Operating Models & Cost Economics",
+        "publisher": "Deloitte India",
+        "published_date": "2023-08-15",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "step-eor-workstation",
+    "name": "Managed Flexible Workstation & Coworking Allocation",
+    "depends_on": [
+      "step-eor-msa"
+    ],
+    "duration_weeks": {
+      "low": 1.0,
+      "base": 2.0,
+      "high": 3.5
+    },
+    "owner_type": "real_estate",
+    "common_blocker": "Security deposit clearing and enterprise biometric access provisioning.",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://www.cbre.co.in/insights/reports/india-office-figures-q4-2023",
+        "title": "India Office Figures Q4 2023: GCC Real Estate Trends",
+        "publisher": "CBRE India",
+        "published_date": "2023-12-20",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "step-eor-talent-hiring",
+    "name": "Talent Sourcing, Offers & EOR Employment Onboarding",
+    "depends_on": [
+      "step-eor-msa"
+    ],
+    "duration_weeks": {
+      "low": 4.0,
+      "base": 7.0,
+      "high": 10.0
+    },
+    "owner_type": "hr",
+    "common_blocker": "60-to-90 day candidate notice periods and competing counter-offers in Tier-1 hubs.",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://www.michaelpage.co.in/salary-guide/gcc-technology",
+        "title": "India GCC Salary Benchmark Report 2024",
+        "publisher": "Michael Page India",
+        "published_date": "2024-01-15",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "step-eor-day-one",
+    "name": "EOR Sprint Day-1 Launch & Product Sprint Start",
+    "depends_on": [
+      "step-eor-workstation",
+      "step-eor-talent-hiring"
+    ],
+    "duration_weeks": {
+      "low": 1.0,
+      "base": 1.5,
+      "high": 2.5
+    },
+    "owner_type": "it",
+    "common_blocker": "Global enterprise VPN and single sign-on (SSO) credential provisioning delays.",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://www.deloitte.com/in/en/pages/consulting/articles/setting-up-gcc-operating-models.html",
+        "title": "Setting Up a Global Capability Centre in India: Operating Models & Cost Economics",
+        "publisher": "Deloitte India",
+        "published_date": "2023-08-15",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "step-name-approval",
+    "name": "Corporate Name Reservation (MCA RUN Portal)",
+    "depends_on": [],
+    "duration_weeks": {
+      "low": 1.0,
+      "base": 1.5,
+      "high": 2.5
+    },
+    "owner_type": "legal",
+    "common_blocker": "Rejection by Registrar of Companies (ROC) due to phonetic similarities with existing Indian trademarks.",
+    "evidence_tier": "A",
+    "sources": [
+      {
+        "url": "https://www.mca.gov.in",
+        "title": "Ministry of Corporate Affairs Government of India SPICe+ Guidelines",
+        "publisher": "Ministry of Corporate Affairs, Government of India",
+        "published_date": "2023-01-01",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "step-entity-incorporation",
+    "name": "SPICe+ Legal Incorporation (Certificate of Incorporation, DIN, DSC)",
+    "depends_on": [
+      "step-name-approval"
+    ],
+    "duration_weeks": {
+      "low": 2.0,
+      "base": 3.5,
+      "high": 5.5
+    },
+    "owner_type": "legal",
+    "common_blocker": "Apostilling and consular notarization of foreign parent director KYC documentation abroad.",
+    "evidence_tier": "A",
+    "sources": [
+      {
+        "url": "https://www.mca.gov.in",
+        "title": "Ministry of Corporate Affairs Government of India SPICe+ Guidelines",
+        "publisher": "Ministry of Corporate Affairs, Government of India",
+        "published_date": "2023-01-01",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "step-pan-bank-account",
+    "name": "PAN/TAN Allotment & Corporate Bank Account Activation",
+    "depends_on": [
+      "step-entity-incorporation"
+    ],
+    "duration_weeks": {
+      "low": 2.5,
+      "base": 4.0,
+      "high": 6.5
+    },
+    "owner_type": "finance",
+    "common_blocker": "Exhaustive Ultimate Beneficial Owner (UBO) compliance audits required by Indian scheduled commercial banks.",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://www.deloitte.com/in/en/pages/consulting/articles/setting-up-gcc-operating-models.html",
+        "title": "Setting Up a Global Capability Centre in India: Operating Models & Cost Economics",
+        "publisher": "Deloitte India",
+        "published_date": "2023-08-15",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "step-office-lease",
+    "name": "Commercial Office Lease Registration & Custom Fit-Out",
+    "depends_on": [
+      "step-entity-incorporation"
+    ],
+    "duration_weeks": {
+      "low": 3.0,
+      "base": 5.5,
+      "high": 8.0
+    },
+    "owner_type": "real_estate",
+    "common_blocker": "Stamp duty adjudication and SEZ / STPI customs bonding approvals.",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://www.cbre.co.in/insights/reports/india-office-figures-q4-2023",
+        "title": "India Office Figures Q4 2023: GCC Real Estate Trends",
+        "publisher": "CBRE India",
+        "published_date": "2023-12-20",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "step-it-infra",
+    "name": "Enterprise IT Network, Dedicated Leased Lines & Hardware Deployment",
+    "depends_on": [
+      "step-office-lease"
+    ],
+    "duration_weeks": {
+      "low": 2.0,
+      "base": 3.5,
+      "high": 6.0
+    },
+    "owner_type": "it",
+    "common_blocker": "Customs clearance delays on imported developer laptops and telecom dot-1 leased-line provisioning.",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://www.cbre.co.in/insights/reports/india-office-figures-q4-2023",
+        "title": "India Office Figures Q4 2023: GCC Real Estate Trends",
+        "publisher": "CBRE India",
+        "published_date": "2023-12-20",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "step-talent-hiring",
+    "name": "Core Technical Team Hiring & Onboarding under Direct Entity",
+    "depends_on": [
+      "step-pan-bank-account"
+    ],
+    "duration_weeks": {
+      "low": 6.0,
+      "base": 10.0,
+      "high": 14.0
+    },
+    "owner_type": "hr",
+    "common_blocker": "60-90 day contractual notice periods standard in Indian tech causing offer buy-out renegotiations and shopping.",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://www.michaelpage.co.in/salary-guide/gcc-technology",
+        "title": "India GCC Salary Benchmark Report 2024",
+        "publisher": "Michael Page India",
+        "published_date": "2024-01-15",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "step-entity-day-one",
+    "name": "Direct Captive Day-1 Launch & Sprint Execution",
+    "depends_on": [
+      "step-talent-hiring",
+      "step-it-infra"
+    ],
+    "duration_weeks": {
+      "low": 1.0,
+      "base": 2.0,
+      "high": 3.0
+    },
+    "owner_type": "legal",
+    "common_blocker": "FDI capital inflow reconciliation with RBI (FC-GPR filing) before Day-1 payroll clearance.",
+    "evidence_tier": "A",
+    "sources": [
+      {
+        "url": "https://www.mca.gov.in",
+        "title": "Ministry of Corporate Affairs Government of India SPICe+ Guidelines",
+        "publisher": "Ministry of Corporate Affairs, Government of India",
+        "published_date": "2023-01-01",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  }
+]

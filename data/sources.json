@@ -1,0 +1,97 @@
+[
+  {
+    "id": "source-zinnov-nasscom",
+    "publisher": "Zinnov & Nasscom",
+    "type": "Industry Trade Association & Advisory",
+    "who_pays": "Corporate membership dues & research subscriptions",
+    "bias_note": "Incentivized to showcase ecosystem maturity, expanding talent capability, and headcount growth to advocate policy incentives and member interests.",
+    "url": "https://zinnov.com/centers-of-excellence/zinnov-nasscom-india-gcc-landscape-2026-report/",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://zinnov.com/centers-of-excellence/zinnov-nasscom-india-gcc-landscape-2026-report/",
+        "title": "Zinnov-Nasscom India GCC Landscape 2026 Report",
+        "publisher": "Zinnov-Nasscom",
+        "published_date": "2026-03-01",
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "source-aim-research",
+    "publisher": "AIM Research (GCC Explorer)",
+    "type": "AI & Technology Research Directory",
+    "who_pays": "Enterprise directory subscriptions & analytics clients",
+    "bias_note": "Focuses on named company tracking, job postings, and tech center openings; may count legal entity shells alongside operational hubs.",
+    "url": "https://gccexplorer.com",
+    "evidence_tier": "C",
+    "sources": [
+      {
+        "url": "https://gccexplorer.com/list-of-gcc-companies-in-india",
+        "title": "AIM Research GCC Explorer Database",
+        "publisher": "AIM Research",
+        "published_date": null,
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "source-gccpros",
+    "publisher": "GCCPROs",
+    "type": "GCC Advisory & Ecosystem Platform",
+    "who_pays": "Advisory and turnkey client engagements",
+    "bias_note": "Maintains a broad definition including secondary satellite centers, micro-hubs, and vendor incubation suites.",
+    "url": "https://gccpros.com",
+    "evidence_tier": "C",
+    "sources": [
+      {
+        "url": "https://gccpros.com",
+        "title": "GCCPROs Platform Overview",
+        "publisher": "GCCPROs",
+        "published_date": null,
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "source-gcc-journal",
+    "publisher": "GCC Journal",
+    "type": "Industry Publication & Event Forum",
+    "who_pays": "Event sponsorships and publication advertising",
+    "bias_note": "Curated editorial coverage highlighting active corporate case studies; not an exhaustive market census.",
+    "url": "https://gccjournal.com",
+    "evidence_tier": "C",
+    "sources": [
+      {
+        "url": "https://gccjournal.com",
+        "title": "GCC Journal Editorial Index",
+        "publisher": "GCC Journal",
+        "published_date": null,
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  },
+  {
+    "id": "source-flexiple",
+    "publisher": "Flexiple GCC Directory",
+    "type": "Talent & EOR Services Platform",
+    "who_pays": "Talent hiring and employer-of-record client fees",
+    "bias_note": "Curated directory of 536 GCCs with public verification; explicitly labelled as a verified set rather than an exhaustive census.",
+    "url": "https://flexiple.com/gcc/india",
+    "evidence_tier": "B",
+    "sources": [
+      {
+        "url": "https://flexiple.com/gcc/india",
+        "title": "Flexiple 536 Verified GCCs Directory",
+        "publisher": "Flexiple",
+        "published_date": null,
+        "accessed_date": "2026-10-12"
+      }
+    ],
+    "last_checked": "2026-10-12"
+  }
+]
